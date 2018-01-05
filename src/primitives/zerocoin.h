@@ -1,8 +1,8 @@
-// Copyright (c) 2017 The PIVX developers
+// Copyright (c) 2017 The TGIS developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef PIVX_ZEROCOIN_H
-#define PIVX_ZEROCOIN_H
+#ifndef TGIS_ZEROCOIN_H
+#define TGIS_ZEROCOIN_H
 
 #include <amount.h>
 #include <limits.h>
@@ -189,4 +189,4 @@ public:
     int GetNeededSpends();
 };
 
-#endif //PIVX_ZEROCOIN_H
+#endif //TGIS_ZEROCOIN_H

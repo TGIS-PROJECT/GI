@@ -1,6 +1,6 @@
 [Protocol]
-exec=pivx-qt '%u'
-protocol=pivx
+exec=tgis-qt '%u'
+protocol=tgis
 input=none
 output=none
 helper=true

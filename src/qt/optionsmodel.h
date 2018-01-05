@@ -46,7 +46,7 @@ public:
         ZeromintEnable,      // bool
         ZeromintPercentage,  // int
         ZeromintPrefDenom,   // int
-        AnonymizePivxAmount, //int
+        AnonymizeTgisAmount, //int
         ShowMasternodesTab,  // bool
         Listen,              // bool
         StakeSplitThreshold, // int
@@ -97,7 +97,7 @@ signals:
     void zeromintEnableChanged(bool);
     void zeromintPercentageChanged(int);
     void preferredDenomChanged(int);
-    void anonymizePivxAmountChanged(int);
+    void anonymizeTgisAmountChanged(int);
     void coinControlFeaturesChanged(bool);
 };
 

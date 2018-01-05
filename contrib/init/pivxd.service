@@ -1,19 +1,19 @@
 [Unit]
-Description=PIVX's distributed currency daemon
+Description=TGIS's distributed currency daemon
 After=network.target
 
 [Service]
-User=pivx
-Group=pivx
+User=tgis
+Group=tgis
 
 Type=forking
-PIDFile=/var/lib/pivxd/pivxd.pid
+PIDFile=/var/lib/tgisd/tgisd.pid
 
-ExecStart=/usr/bin/pivxd -daemon -pid=/var/lib/pivxd/pivxd.pid \
-          -conf=/etc/pivx/pivx.conf -datadir=/var/lib/pivxd
+ExecStart=/usr/bin/tgisd -daemon -pid=/var/lib/tgisd/tgisd.pid \
+          -conf=/etc/tgis/tgis.conf -datadir=/var/lib/tgisd
 
-ExecStop=-/usr/bin/pivx-cli -conf=/etc/pivx/pivx.conf \
-         -datadir=/var/lib/pivxd stop
+ExecStop=-/usr/bin/tgis-cli -conf=/etc/tgis/tgis.conf \
+         -datadir=/var/lib/tgisd stop
 
 Restart=always
 PrivateTmp=true

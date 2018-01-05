@@ -1,2 +1,2 @@
-usr/local/bin/pivxd usr/bin
-usr/local/bin/pivx-cli usr/bin
+usr/local/bin/tgisd usr/bin
+usr/local/bin/tgis-cli usr/bin

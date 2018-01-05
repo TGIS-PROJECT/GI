@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: pivxd.service
-Upstart: pivxd.conf
-OpenRC:  pivxd.openrc
-         pivxd.openrcconf
-CentOS:  pivxd.init
+SystemD: tgisd.service
+Upstart: tgisd.conf
+OpenRC:  tgisd.openrc
+         tgisd.openrcconf
+CentOS:  tgisd.init
 
 have been made available to assist packagers in creating node packages here.
 
